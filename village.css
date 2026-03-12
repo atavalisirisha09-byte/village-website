@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #006400; /* dark green */
+  padding: 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo {
+  color: white;
+  font-size: 50px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 8px 12px;
+}
+
+ul li a:hover {
+  background-color: #004d00; /* darker green hover */
+  border-radius: 5px;
+}
+header{
+    padding:40px;
+    text-align: center;
+}
+/*.content {
+    float: left;
+   
+    justify-content: left;
+    text-align: justify;
+    
+}
+.heading{
+     margin-left: 40px;
+    margin-top: 30px;
+    color: #006400;
+}*/
+.container {
+    margin: 40px;
+      justify-content: flex-start;
+    font-size: 15px;
+    padding: 50px;
+  line-height: 1.6;
+    text-align: justify;
+   
+}
+
+.heading {
+    margin: 40px;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #006400;
+    border-bottom: 3px solid #006400;
+    padding-bottom: 10px;
+}
+.village1{
+  text-align: center;
+}
+.about {
+  padding: 50px;
+  line-height: 1.6;
+}
+.note {
+  background-color: #e8f4fd;
+  border-left: 4px solid #2a5298;
+  padding: 12px 15px;
+  margin: 15px 0;
+  border-radius: 0 5px 5px 0;}
+  .about-table {
+  padding: 20px;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid gray;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color:#006400;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.mandal-info {
+  padding: 20px;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+th {
+  background-color: #2e7d32;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.about:hover{
+  cursor: pointer;
+}
+/* contact css*/
+.contact-container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .us{
+            text-align: center;
+            color: #2e7d32;
+        }
+
+        .contact-info {
+            background-color: #f2f2f2;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        .contact-form button {
+            background-color: #2e7d32;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #1b5e20;
+        }
+/*
+  background-color: #4CAF50;

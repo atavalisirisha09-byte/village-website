@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery - Wanaparthy</title>
+  <link rel="stylesheet" href="village.css">
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2e7d32;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            padding: 20px;
+            justify-items: auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        /* Hover effect */
+        .gallery img:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+
+        .caption {
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .item {
+            text-align: center;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <nav>
+        <h2 class="logo" >Wanapar<span style="font-family: 'Courier New', Courier, monospace;">thy</span> </h2>
+              <ul >
+                 <li><a href="Village.html">Home</a></li>
+                   <li><a href="About Village.html">About District</a></li>
+                    <li><a href="Administration.html">Administration/Schemes</a></li>
+                   <li><a href="location.html">location</a></li>
+                   <li><a href="Photos.html">Gallery</a></li>
+
+                   <li><a href="villagecontact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+<h1>Wanaparthy Gallery</h1>
+
+<div class="gallery">
+
+    <div class="item">
+        <img src="village3.png" alt="Wanaparthy Palace" onclick="openPage('place.html')">
+        <div class="caption">Wanaparthy Palace</div>
+    </div>
+
+    <div class="item">
+        <img src="village6.png" alt="Temple" onclick="openPage('temple.html')">
+        <div class="caption">Temple</div>
+    </div>
+
+    <div class="item">
+        <img src="village7.png" alt="Lake" onclick="openPage('sarlasagarproject.html')">
+        <div class="caption">Sarla sagar project</div>
+    </div>
+
+    <div class="item">
+        <img src="village8.png" alt="Village" onclick="openPage('villageview.html')">
+        <div class="caption">Village View</div>
+    </div>
+
+    <div class="item">
+        <img src="village9.png" alt="School" onclick="openPage('school.html')">
+        <div class="caption">School</div>
+    </div>
+
+    <div class="item">
+        <img src="village10.png" alt="Farm" onclick="openPage('agriculturefields.html')">
+        <div class="caption">Agriculture Fields</div>
+    </div>
+
+</div>
+<script>
+function openPage(page){
+    window.location.href = page;
+}
+</script>
+</body>
+</html>
