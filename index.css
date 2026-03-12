@@ -42,19 +42,6 @@ ul li a:hover {
 header{
     padding:40px;
     text-align: center;
-}
-/*.content {
-    float: left;
-   
-    justify-content: left;
-    text-align: justify;
-    
-}
-.heading{
-     margin-left: 40px;
-    margin-top: 30px;
-    color: #006400;
-}*/
 .container {
     margin: 40px;
       justify-content: flex-start;
@@ -173,4 +160,5 @@ tr:nth-child(even) {
             background-color: #1b5e20;
         }
 /*
+
   background-color: #4CAF50;
