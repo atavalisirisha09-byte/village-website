@@ -42,6 +42,8 @@ ul li a:hover {
 header{
     padding:40px;
     text-align: center;
+}
+
 .container {
     margin: 40px;
       justify-content: flex-start;
@@ -160,5 +162,4 @@ tr:nth-child(even) {
             background-color: #1b5e20;
         }
 /*
-
   background-color: #4CAF50;
